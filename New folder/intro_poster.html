@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Intro Poster</title>
+  <style>
+    :root {
+      --bg: #f5eee8;
+      --paper: #fffaf8;
+      --pink: #f5b8d9;
+      --rose: #f7d4e5;
+      --lilac: #d9d5ef;
+      --sage: #d8e7d7;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      min-height: 100vh;
+      display: grid;
+      place-items: center;
+      background: linear-gradient(180deg, #f7f2ef 0%, #efe6ea 100%);
+      font-family: Arial, Helvetica, sans-serif;
+    }
+    .frame {
+      padding: 24px;
+      background: rgba(255,255,255,0.18);
+      border: 1px solid rgba(151, 132, 146, 0.2);
+      box-shadow: 0 20px 50px rgba(90, 71, 82, 0.14);
+      border-radius: 28px;
+    }
+    img {
+      display: block;
+      width: min(92vw, 620px);
+      height: auto;
+      border-radius: 16px;
+      box-shadow: 0 14px 30px rgba(104, 89, 96, 0.14);
+      background: var(--paper);
+    }
+  </style>
+</head>
+<body>
+  <div class="frame">
+    <img src="intro_poster.png" alt="Pastel intro poster using the uploaded portrait" />
+  </div>
+</body>
+</html>
